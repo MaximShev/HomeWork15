@@ -1,9 +1,9 @@
 public class Slytherin extends Hogwarts {
-    int cunning;
-    int determination;
-    int ambition;
-    int resourcefulness;
-    int lustForPower;
+    private int cunning;
+    private int determination;
+    private int ambition;
+    private int resourcefulness;
+    private int lustForPower;
 
     public Slytherin(String fullName, int powerMagic, int transgression, int cunning, int determination, int ambition, int resourcefulness, int lustForPower) {
         super(fullName, powerMagic, transgression);

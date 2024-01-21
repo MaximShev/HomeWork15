@@ -1,9 +1,9 @@
 import java.sql.SQLOutput;
 
 public class Gryffindor extends Hogwarts {
-    int nobility;
-    int honor;
-    int bravery;
+    private int nobility;
+    private int honor;
+    private int bravery;
 
     public Gryffindor(String fullName, int powerMagic, int transgression, int nobility, int honor, int bravery) {
         super(fullName, powerMagic, transgression);
